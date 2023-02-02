@@ -5,18 +5,6 @@ const SideNav = () => {
     const img = {
         menu: require('../../assets/images/menu.png')
     }
-    let sideNav = document.getElementsByClassName('sideNav');
-    let menuBtn = document.getElementsByClassName('menuBtn');
-    sideNav.style.right = "-250px";
-
-    menuBtn.onClick = function () {
-        if (sideNav.style.right == "-250px") {
-            sideNav.style.right = "0";
-        }
-        else {
-            sideNav.style.right = "-250px";
-        }
-    }
     return (
         <>
             <nav className="sideNav">
