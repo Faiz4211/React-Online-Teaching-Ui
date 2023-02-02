@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (max-width: 700px) {
+  .header {
+    background-image: none;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .container {
+    margin-right: 50px;
+    margin-left: 50px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .logo {
+    margin-top: 27px;
+    width: 70px;
+  }
+
+  .header-text {
+    margin-top: 100px;
+  }
+
+  h1 {
+    font-size: 25px;
+
+  }
+
+  .menuBtn {
+    width: 40px;
+    right: 50px;
+  }
+
+  .common-btn {
+    padding: 10px 16px;
+  }
+
+  .social-icons img {
+    width: 14px;
+    margin: 15px auto;
+  }
+
+  .about-left-col,
+  .about-right-col {
+    flex-basis: 100%;
+  }
+
+  .about-text {
+    margin: 50px 50px 0;
+    display: inline-block;
+  }
+
+  .about-text h2 {
+    font-size: 18px;
+  }
+
+  .feature-col {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+
+  }
+
+  .course-left-col {
+    flex-basis: 100%;
+  }
+
+  .course-right-col {
+    flex-basis: 100%;
+    margin-top: 70px;
+  }
+
+  .contact-left-col,
+  .contact-right-col {
+    flex-basis: 100%;
+
+  }
+
+  .contact-right-col {
+    margin-top: 50px;
+  }
+
+  .footer-left-col {
+    flex-basis: 100%;
+  }
+
+  .footer-right-col {
+    flex-basis: 100%;
+  }
+
+  .link-title {
+    flex-basis: 50%;
+    margin-bottom: 30px;
   }
 }

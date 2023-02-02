@@ -1,0 +1,10 @@
+.offer {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.offer button {
+    margin: 30px 0;
+}

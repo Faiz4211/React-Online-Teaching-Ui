@@ -1,0 +1,67 @@
+.header {
+    height: 100vh;
+    background-image: url('/src/assets/images/background.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.logo {
+    margin-top: 30px;
+    width: 100px;
+}
+
+.header-text {
+    text-align: left;
+
+}
+
+@media (min-width: 960px) {
+    .header-text {
+        width: 30%;
+    }
+}
+
+h1 {
+    font-size: 34px;
+
+}
+
+.square {
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: #f67c92;
+    margin: 15px 0;
+}
+
+.common-btn {
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.line-2 {
+    width: 80px;
+    height: 1px;
+    background: #f67c92;
+    display: inline-block;
+}
+
+.line-3 {
+    width: 60px;
+    height: 1px;
+    background: #f67c92;
+    display: inline-block;
+}
+
+.line {
+    line-height: 8px;
+}
